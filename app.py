@@ -12,15 +12,15 @@ from tensorflow.keras.models import load_model
 # ✅ Chargement des modèles
 @st.cache_resource
 def load_cats_dogs_model():
-    return load_model("CAT_DOG.h5, compile=False")
+    return load_model("CAT_DOG.h5")
 
 @st.cache_resource
 def load_malaria_model():
-    return load_model("Cell_img.h5, compile=False")  
+    return load_model("Cell_img.h5")  
 
 @st.cache_resource
 def load_cifar10_model():
-    return load_model("CIFAR10_CNN.h5, compile=False")
+    return load_model("CIFAR10_CNN.h5
 
 # ✅ Prédictions
 def predict_cats_dogs(image):
