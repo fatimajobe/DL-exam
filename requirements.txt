@@ -1,0 +1,9 @@
+streamlit
+torch
+torchvision
+tensorflow==2.13.0
+pandas
+numpy
+matplotlib
+Pillow
+scikit-learn
