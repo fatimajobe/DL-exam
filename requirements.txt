@@ -1,6 +1,8 @@
-streamlit==1.32.0
-torch==2.1.2
-tensorflow==2.15.0
-numpy==1.26.3
-Pillow==10.1.0
-protobuf==3.20.3  # Important pour la compatibilité avec TensorFlow
+tensorflow-cpu==2.15.0
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+opencv-python-headless
+gradio
