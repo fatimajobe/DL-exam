@@ -1,9 +1,8 @@
-streamlit==1.35.0
-torch==2.2.2
-torchvision==0.17.2
-tensorflow-cpu==2.12.0
-pandas
+tensorflow==2.15.0
 numpy
+pandas
 matplotlib
-Pillow
+seaborn
 scikit-learn
+opencv-python-headless
+gradio  # ou streamlit ou flask selon ce que tu utilises
