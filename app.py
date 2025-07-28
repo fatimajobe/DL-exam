@@ -1,3 +1,5 @@
+import os
+os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
 import streamlit as st
 import torch
 import torch.nn.functional as F
@@ -6,9 +8,6 @@ import numpy as np
 from PIL import Image
 import tensorflow as tf
 from tensorflow.keras.models import load_model
-import torchvision.transforms as transforms
-import torch
-import torch.nn.functional as F
 
 # ✅ Chargement des modèles
 @st.cache_resource
