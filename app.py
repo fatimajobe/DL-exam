@@ -1,7 +1,4 @@
 import os
-os.environ["STREAMLIT_WATCHDOG_MODE"] = "poll"
-
-import os
 os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
 import streamlit as st
 import torch
